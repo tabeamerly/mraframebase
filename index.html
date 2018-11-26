@@ -26,14 +26,14 @@
 	<a-scene embedded arjs='patternRatio: 0.7'>
 
 		<a-assets> 
-			<a-asset-item id="erde" src="/assets/erde.gltf"></a-asset-item>
-			<a-asset-item id="merkur" src="/assets/mercury.gltf"></a-asset-item>
-			<a-asset-item id="venus" src="/assets/venus.gltf"></a-asset-item>
-			<a-asset-item id="mars" src="/assets/mars.gltf"></a-asset-item>
-			<a-asset-item id="jupiter" src="/assets/jupiter.gltf"></a-asset-item>
-			<a-asset-item id="saturn" src="/assets/saturn.gltf"></a-asset-item>
-			<a-asset-item id="uranus" src="/assets/uranus.gltf"></a-asset-item>
-			<a-asset-item id="neptun" src="/assets/neptun.gltf"></a-asset-item> 
+			<a-asset-item id="erde" src="../assets/erde.gltf"></a-asset-item>
+			<a-asset-item id="merkur" src="../assets/mercury.gltf"></a-asset-item>
+			<a-asset-item id="venus" src="../assets/venus.gltf"></a-asset-item>
+			<a-asset-item id="mars" src="../assets/mars.gltf"></a-asset-item>
+			<a-asset-item id="jupiter" src="../assets/jupiter.gltf"></a-asset-item>
+			<a-asset-item id="saturn" src="../assets/saturn.gltf"></a-asset-item>
+			<a-asset-item id="uranus" src="../assets/uranus.gltf"></a-asset-item>
+			<a-asset-item id="neptun" src="../assets/neptun.gltf"></a-asset-item> 
 		</a-assets>
 
 		<a-marker preset="custom" type="pattern" url="patterns/1.patt">
@@ -106,8 +106,7 @@
 		</a-marker>
 
 		<!-- Camera -->
-		<a-camera camera position="0 0 0">
-        </a-camera>
+		<a-entity camera></a-entity>
 
 	</a-scene>
 
